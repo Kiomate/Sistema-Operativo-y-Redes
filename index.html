@@ -39,7 +39,16 @@
         border-radius: 14px;
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
       }
-      .tema img,
+      .tema img {
+        width: 60%;
+        max-width: 60%;
+        height: 500px;
+        border-radius: 10px;
+        margin-top: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
       .tema iframe {
         width: 100%;
         max-width: 100%;
@@ -77,38 +86,69 @@
       <div class="tema">
         <h2>1. ¿Qué es un Sistema Operativo?</h2>
         <p>
-          Un sistema operativo (SO) es el software que gestiona el hardware y
-          los recursos de una computadora. Actúa como intermediario entre el
-          usuario y el hardware.
+          Un sistema operativo (SO) es el conjunto de programas que permiten la
+          interacción entre el usuario y el hardware del computador. Su función
+          principal es gestionar los recursos del sistema de manera eficiente.
         </p>
         <ul>
           <li>
             <strong>Funciones:</strong> administración de archivos, procesos,
-            memoria, dispositivos.
+            memoria, periféricos, seguridad y multitarea.
           </li>
-          <li><strong>Ejemplos:</strong> Windows, Linux, macOS, Android.</li>
           <li>
-            <strong>Tipos:</strong> monousuario, multiusuario, en tiempo real,
-            distribuidos.
+            <strong>Ejemplos:</strong> Windows, Linux, macOS, Android, iOS.
+          </li>
+          <li>
+            <strong>Tipos:</strong> monousuario, multiusuario, de red, en tiempo
+            real, distribuidos, embebidos.
           </li>
         </ul>
+        <p>
+          Un sistema operativo permite que otras aplicaciones funcionen
+          correctamente. También proporciona interfaces gráficas (GUI) y
+          herramientas para el control del sistema.
+        </p>
+        <img
+          src="https://ilastec.com/wp-content/uploads/2022/06/que-sistema-operativo-utilizar-empresa-windows-linux-mac.png"
+          alt="Sistema Operativo"
+        />
       </div>
 
       <div class="tema">
         <h2>2. Tipos de Redes</h2>
         <p>
-          Una red es un conjunto de dispositivos interconectados para compartir
-          información y recursos. Se clasifican por su tamaño, topología y
-          propósito.
+          Una red informática es un conjunto de computadoras y dispositivos
+          conectados entre sí para compartir información y recursos. Se
+          clasifican por su alcance, arquitectura y propósito.
         </p>
         <ul>
-          <li><strong>LAN:</strong> Red de área local (oficinas, casas).</li>
-          <li><strong>MAN:</strong> Red de área metropolitana.</li>
-          <li><strong>WAN:</strong> Red de área amplia (Internet).</li>
-          <li><strong>Topologías:</strong> estrella, bus, anillo, malla.</li>
+          <li>
+            <strong>LAN:</strong> Red de área local utilizada en oficinas,
+            hogares, escuelas.
+          </li>
+          <li>
+            <strong>MAN:</strong> Red metropolitana que cubre una ciudad o
+            campus universitario.
+          </li>
+          <li>
+            <strong>WAN:</strong> Red extensa que cubre áreas geográficas
+            grandes, como el Internet.
+          </li>
+          <li>
+            <strong>Topologías:</strong> estrella, bus, anillo, malla, híbrida.
+          </li>
+          <li>
+            <strong>Medios:</strong> alámbricos (cables) e inalámbricos (Wi-Fi,
+            Bluetooth).
+          </li>
         </ul>
+        <p>
+          El diseño de una red influye en su rendimiento, escalabilidad y
+          seguridad. Hoy en día, las redes son fundamentales para el trabajo
+          colaborativo y el acceso remoto a información.
+        </p>
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Redes_de_ordenadores.png"
+          src="https://cdn.goconqr.com/uploads/image_clipping/image/1201558/desktop_b009e150-aed5-41a5-a707-43ac68b3b939.jpg"
           alt="Tipos de Redes"
         />
       </div>
@@ -116,21 +156,34 @@
       <div class="tema">
         <h2>3. Protocolos de Comunicación</h2>
         <p>
-          Son reglas que permiten la transmisión de datos entre dispositivos.
-          Garantizan que la información sea enviada, recibida y comprendida
-          correctamente.
+          Los protocolos son reglas estandarizadas que permiten la comunicación
+          entre dispositivos en una red. Establecen cómo se envían, reciben y
+          verifican los datos.
         </p>
         <ul>
-          <li><strong>TCP/IP:</strong> base del funcionamiento de Internet.</li>
-          <li><strong>HTTP/HTTPS:</strong> navegación web segura.</li>
-          <li><strong>FTP:</strong> transferencia de archivos.</li>
           <li>
-            <strong>SMTP/IMAP:</strong> envío y recepción de correos
-            electrónicos.
+            <strong>TCP/IP:</strong> modelo base del Internet, con niveles de
+            transporte y red.
+          </li>
+          <li>
+            <strong>HTTP/HTTPS:</strong> transferencia de páginas web, con y sin
+            cifrado.
+          </li>
+          <li>
+            <strong>FTP:</strong> protocolo de transferencia de archivos entre
+            servidores y clientes.
+          </li>
+          <li>
+            <strong>SMTP/IMAP/POP3:</strong> protocolos de correo electrónico.
           </li>
         </ul>
+        <p>
+          Cada protocolo cumple un rol específico. Por ejemplo, TCP se asegura
+          de que los datos lleguen completos, mientras que IP se encarga de la
+          dirección y el enrutamiento.
+        </p>
         <iframe
-          src="https://www.youtube.com/embed/6LgxPiD2p2c"
+          src="https://www.youtube.com/embed/-NToJj1y9mc"
           title="Protocolos de red"
           allowfullscreen
         ></iframe>
@@ -139,22 +192,34 @@
       <div class="tema">
         <h2>4. Seguridad en Redes</h2>
         <p>
-          La seguridad de redes busca proteger los datos y sistemas conectados
-          frente a accesos no autorizados, ataques y pérdidas de información.
+          La seguridad de redes busca proteger los datos y dispositivos contra
+          ataques, accesos no autorizados y pérdidas. Es un componente vital en
+          cualquier sistema moderno de información.
         </p>
         <ul>
-          <li><strong>Firewall:</strong> filtra el tráfico de red.</li>
           <li>
-            <strong>Antivirus y antispyware:</strong> detectan y eliminan
-            amenazas.
+            <strong>Firewall:</strong> sistema que filtra el tráfico de red,
+            permitiendo o bloqueando conexiones.
           </li>
-          <li><strong>VPN:</strong> conexión segura y cifrada.</li>
           <li>
-            <strong>Contraseñas y autenticación:</strong> seguridad de acceso.
+            <strong>Antivirus y antispyware:</strong> software que detecta y
+            elimina amenazas como malware.
+          </li>
+          <li>
+            <strong>VPN:</strong> red privada virtual que cifra la conexión del
+            usuario para mayor privacidad.
+          </li>
+          <li>
+            <strong>Autenticación:</strong> verificación de identidad mediante
+            contraseñas, biometría, tokens.
           </li>
         </ul>
+        <p>
+          La implementación de buenas prácticas como actualizaciones periódicas,
+          contraseñas seguras y monitoreo constante refuerza la ciberseguridad.
+        </p>
         <img
-          src="https://cdn-icons-png.flaticon.com/512/2721/2721293.png"
+          src="https://cdn.prod.website-files.com/62e153e41d6ee298cc9a98f7/635c333a664d9ef603071e89_network-security.webp"
           alt="Seguridad de redes"
         />
       </div>
@@ -162,34 +227,119 @@
       <div class="tema">
         <h2>5. Sistemas de Numeración</h2>
         <p>
-          Los sistemas de numeración son métodos para representar cantidades. En
-          informática se usan distintos sistemas, principalmente el binario.
+          Los sistemas de numeración permiten representar cantidades de forma
+          simbólica. En informática, estos sistemas son esenciales para el
+          procesamiento y almacenamiento de datos.
         </p>
         <ul>
           <li>
-            <strong>Decimal:</strong> base 10 (números que usamos
-            cotidianamente).
+            <strong>Decimal (Base 10):</strong> usa los dígitos del 0 al 9, es
+            el más común en la vida diaria.
           </li>
           <li>
-            <strong>Binario:</strong> base 2 (usado por las computadoras: 0 y
-            1).
+            <strong>Binario (Base 2):</strong> utiliza solo 0 y 1, representa
+            estados eléctricos (encendido/apagado).
           </li>
-          <li><strong>Octal:</strong> base 8.</li>
           <li>
-            <strong>Hexadecimal:</strong> base 16 (usado en programación y
-            direcciones de memoria).
+            <strong>Octal (Base 8):</strong> emplea del 0 al 7, utilizado
+            antiguamente en sistemas UNIX.
+          </li>
+          <li>
+            <strong>Hexadecimal (Base 16):</strong> combina dígitos del 0 al 9 y
+            letras de la A a la F. Es útil en programación y direcciones de
+            memoria.
           </li>
         </ul>
         <p>
-          Las conversiones entre estos sistemas son esenciales para entender
-          cómo las computadoras procesan y almacenan datos.
+          Comprender cómo convertir entre estos sistemas es fundamental en la
+          electrónica digital, programación de bajo nivel y arquitectura de
+          computadoras.
         </p>
         <iframe
-          src="https://www.youtube.com/embed/UoK9j8Kz5_4"
+          src="https://www.youtube.com/embed/fafGiCOzCCg"
           title="Sistema de numeración binario"
           allowfullscreen
         ></iframe>
       </div>
+
+      <div class="tema">
+        <h2>6. Ejercicio de Practica</h2>
+        <p>
+          En los sistemas de numeración, es importante aprender a diifrerenciar
+          entre los sistemas de base 2, 8, 10 y 16. A continuación, se presentan
+          algunos ejemplos de conversión entre estos sistemas:
+        </p>
+        <ul>
+          <li>
+            <strong>Base 2:</strong> en este sistema, el número 1011 representa
+            el valor decimal 11.
+          </li>
+          <li>
+            <strong>Base 8:</strong> en este sistema, el número 13 en base 8
+            equivale al valor decimal 11.
+          </li>
+          <li>
+            <strong>Base 10:</strong> en este sistema, el número 11 es
+            simplemente 11.
+          </li>
+          <li>
+            <strong>Base 16:</strong> en este sistema, el número B en base 16
+            también representa el valor decimal 11.
+          </li>
+        </ul>
+        <p>
+          Estos ejemplos muestran cómo los diferentes sistemas de numeración
+          pueden representar el mismo valor decimal de distintas maneras. La
+          comprensión de estas conversiones es esencial para trabajar con
+          computadoras y redes. Aqui hay un ejercicio práctico sobre estos
+          sistemas:
+        </p>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/3/34/Conversion.JPG?w=640"
+        />
+        <img
+          src="https://i.ytimg.com/vi/j_zy-xdfNAw/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AG-B4AC0AWKAgwIABABGHIgPCg6MA8=&rs=AOn4CLAxLzdLLseKHqOJVszhm9NAxjg-0w"
+        />
+      </div>
+    </div>
+
+    <div
+      style="
+        max-width: 900px;
+        margin: 2rem auto;
+        background: #fff;
+        border-radius: 10px;
+        padding: 2rem;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+      "
+    >
+      <ul style="list-style: disc; padding-left: 1.5rem">
+        <li><strong>Nombre:</strong> Alcides Parrales Yunga</li>
+        <li><strong>Curso:</strong> 3 Bachillerato Técnico "A"</li>
+        <li><strong>Fecha:</strong> 24 de Julio de 2025</li>
+      </ul>
+    </div>
+
+    <div style="text-align: center; margin-top: 1rem">
+      <a
+        href="otra_pagina.html"
+        style="
+          background-color: #00796b;
+          color: white;
+          padding: 12px 24px;
+          font-size: 18px;
+          border: none;
+          border-radius: 8px;
+          text-decoration: none;
+          font-weight: bold;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          transition: background-color 0.3s ease;
+        "
+        onmouseover="this.style.backgroundColor='#004d40'"
+        onmouseout="this.style.backgroundColor='#00796b'"
+      >
+        Ir a la Página Principal
+      </a>
     </div>
 
     <footer>
